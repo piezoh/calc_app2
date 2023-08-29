@@ -24,6 +24,8 @@ class CalcController extends Controller
 
             $result =  $num1 / $num2;
 
+        } else {
+            $result = "計算できません";
         }
 
 
